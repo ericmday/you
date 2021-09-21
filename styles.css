@@ -25,7 +25,7 @@ html {
 	position: relative;
 }
 
-.super-content .max-width {
+.super-content.max-width {
 	max-width: 1000px !important;
 	margin-bottom: 3% !important;
 }
@@ -188,7 +188,7 @@ a.notion-link.super-navbar__item {
 .nav {
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 0;
+	padding-bottom: 0 !important;
 	display: flex;
 	height: 100px;
 	width: 100%;
