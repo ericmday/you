@@ -434,9 +434,9 @@ nav.nav.super-content.max-width {
 }
 
 .notion-collection-card .notion-property__title {
-  padding-left:0px;
-  font-size:1em;
-  padding-top:10px;
+  padding-left:0px !important;
+  font-size:1em !important;
+  padding-top:10px !important;
   color: var(--color-text-default);
 }
 
