@@ -145,6 +145,7 @@ span.notion-breadcrumb__divider {
 
 .super-navbar__content {
     padding-right:0px !important;
+    background-color: transparent !important;
 }
 
 span.super-navbar__logo-text {
