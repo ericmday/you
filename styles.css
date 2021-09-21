@@ -144,7 +144,7 @@ span.notion-breadcrumb__divider {
 /*****************************/
 
 .super-navbar__content {
-    padding-right:0px;
+    padding-right:0px !important;
 }
 
 span.super-navbar__logo-text {
@@ -152,27 +152,27 @@ span.super-navbar__logo-text {
 }
 
 a.notion-link.super-navbar__item {
-    padding-right:0px;
+    padding-right:0px !important;
 }
 
 @media (min-width:999px) {
   .super-navbar.simple {     
-     width:1000px;
-     padding-left: calc(env(safe-area-inset-left) + 96px);
-     padding-right: calc(env(safe-area-inset-right) + 96px);
-     margin:auto;
+     width:1000px !important;
+     padding-left: calc(env(safe-area-inset-left) + 96px) !important;
+     padding-right: calc(env(safe-area-inset-right) + 96px) !important;
+     margin:auto !important;
   }
 }
 
 @media (min-width:861px) {
   .super-navbar.simple {
-      padding-left: calc(env(safe-area-inset-left) + 96px);
-      padding-right: calc(env(safe-area-inset-right) + 96px);
-      margin:0px auto;
+      padding-left: calc(env(safe-area-inset-left) + 96px) !important;
+      padding-right: calc(env(safe-area-inset-right) + 96px) !important;
+      margin:0px auto !important;
   }
 
   a.notion-link.super-navbar__item:hover {
-      padding-bottom:20px; 
+      padding-bottom:20px !important; 
   }   
 }
 
