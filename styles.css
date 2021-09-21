@@ -9,8 +9,9 @@ html, body {overflow-x: hidden!important;}
 
 body {position:relative !important;}
 
+/* Custom gradient in options */
 body {
-	background: linear-gradient(165deg, #FAFAFA 30%, #FFF 0%);
+/* 	background: linear-gradient(165deg, #FAFAFA 30%, #FFF 0%); */
 }
 
 :root {
