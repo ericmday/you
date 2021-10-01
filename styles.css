@@ -1370,7 +1370,7 @@ button.button-subscribe:hover {
      font-size: 2em !important;
    }
    #page-content .notion-header__title-wrapper {
-/*      margin-top: 20vh !important; */
+     margin-top: 0px !important;
    }
  }
 
