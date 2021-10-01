@@ -1211,6 +1211,12 @@ table.notion-collection-table .property-4158617e {
 	margin-bottom: 20px;
 }
 
+@media (max-width:414px) {
+	.footer.super-content.max-width {
+	    padding-bottom: 0 !important;
+	}
+}
+
 /*****************************/
 
 
@@ -1364,7 +1370,6 @@ button.button-subscribe:hover {
    }
    #page-content .notion-header__title-wrapper {
      margin-top: 20vh !important;
-
    }
  }
 
