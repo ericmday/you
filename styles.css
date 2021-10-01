@@ -1325,6 +1325,7 @@ button.button-subscribe:hover {
 	overflow-x:hidden;
 	display:inline-block;
 	padding-top:20px;
+	height:90vh;
 }
 
 #page-content .notion-collection-table__wrapper {
