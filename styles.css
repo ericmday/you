@@ -150,7 +150,7 @@ span.notion-breadcrumb__divider {
 }
 
 .super-navbar__item {
-	display: block;
+	display: block !important;
 	padding-right: 5px;
 }
 
