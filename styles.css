@@ -151,7 +151,7 @@ span.notion-breadcrumb__divider {
 
 .super-navbar__item {
 	display: block !important;
-	padding-right: 5px;
+	padding-right: 5px !important;
 }
 
 span.super-navbar__logo-text {
