@@ -138,46 +138,62 @@ span.notion-breadcrumb__divider {
 /*****************************/
 
 
-/* Not in use - Custom Super Navbar "Simple" */
+/* Custom Super Navbar "Simple" */
 /* Enable from "Themes" in Super menu */
 
 
 /*****************************/
 
-/* .super-navbar__content {
-    padding-right:0px !important;
-    background: transparent !important;
+.super-navbar__content {
+	padding-right: 0px !important;
+	background: transparent !important;
+}
+
+.super-navbar__item {
+	display: block;
+	padding-right: 5px;
 }
 
 span.super-navbar__logo-text {
-    display: none;
+	display: none;
 }
 
-a.notion-link.super-navbar__item {
-    padding-right:0px !important;
+.super-navbar__item {
+	font-size: 16px;
+	color: var(--color-text-default);
+	font-weight: 400;
 }
 
 @media (min-width:999px) {
-  .super-navbar.simple {     
-     width:1000px !important;
-     padding-left: calc(env(safe-area-inset-left) + 96px) !important;
-     padding-right: calc(env(safe-area-inset-right) + 96px) !important;
-     margin:auto !important;
-     background: transparent !important;     
-  }
+	.super-navbar.simple {
+		width: 1000px !important;
+		padding-left: calc(env(safe-area-inset-left) + 96px) !important;
+		padding-right: calc(env(safe-area-inset-right) + 96px) !important;
+		margin: auto !important;
+		background: transparent !important;
+	}
 }
 
 @media (min-width:861px) {
-  .super-navbar.simple {
-      padding-left: calc(env(safe-area-inset-left) + 96px) !important;
-      padding-right: calc(env(safe-area-inset-right) + 96px) !important;
-      margin:0px auto !important;
-  }
-
-  a.notion-link.super-navbar__item:hover {
-      padding-bottom:20px !important; 
-  }   
-} */
+	.super-navbar.simple {
+		padding-left: calc(env(safe-area-inset-left) + 96px) !important;
+		padding-right: calc(env(safe-area-inset-right) + 96px) !important;
+		margin: 0px auto !important;
+		background-color: transparent !important;
+	}
+	a.notion-link.super-navbar__item::after {
+		content: '';
+		display: block !important;
+		width: 0;
+		height: 2px;
+		background: gray;
+		transition: width .3s;
+	}
+	a.notion-link.super-navbar__item:hover::after {
+		width: 100%;
+		transition: width .3s;
+	}
+}
 
 /*****************************/
 
