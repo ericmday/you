@@ -144,7 +144,7 @@ span.notion-breadcrumb__divider {
 
 /*****************************/
 
-.super-navbar__content {
+/* .super-navbar__content {
     padding-right:0px !important;
     background: transparent !important;
 }
@@ -177,7 +177,7 @@ a.notion-link.super-navbar__item {
   a.notion-link.super-navbar__item:hover {
       padding-bottom:20px !important; 
   }   
-}
+} */
 
 /*****************************/
 
