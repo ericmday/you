@@ -230,7 +230,7 @@ span.notion-breadcrumb__divider {
 .notion-collection-card {
 	transition: all .3s ease !important;
 	box-shadow: none !important;
-	background:transparent;
+	background:transparent !important;
 }
 
 .notion-collection-card:hover {
