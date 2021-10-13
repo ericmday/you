@@ -199,7 +199,7 @@ span.notion-breadcrumb__divider {
 /* Global Gallery */
 
 
-/* Effects index, portfolio, posts, media-recs, downloads */
+/* Effects index, portfolio, posts, recommendations, downloads */
 
 
 /*****************************/
@@ -580,14 +580,14 @@ span.notion-breadcrumb__divider {
 /*****************************/
 
 
-/* Media Recs */
+/* Recommendations */
 
 
 /*****************************/
 
 /* Cover */
 
-[id*="media-recs"] .notion-collection-card__cover img {
+[id*="recommendations"] .notion-collection-card__cover img {
 	border-radius: 0px !important;
 	width: 100% !important;
 	object-fit: contain !important;
@@ -597,16 +597,16 @@ span.notion-breadcrumb__divider {
 
 /* Summary and header */
 
-[id*="media-recs"] .notion-collection-card__content.no-title {
+[id*="recommendations"] .notion-collection-card__content.no-title {
 	display: block !important;
 	padding-top: 0px !important;
 }
 
-[id*="media-recs"] .notion-image.page-width img {
+[id*="recommendations"] .notion-image.page-width img {
 	border-radius: 0!important;
 }
 
-[id*="media-recs"] .notion-collection-gallery {
+[id*="recommendations"] .notion-collection-gallery {
 	display: flex;
 	border: none !important;
 	padding: 0!important;
@@ -618,14 +618,14 @@ span.notion-breadcrumb__divider {
 
 /* Header font size */
 
-[id*="media-recs"] .notion-property.notion-property__text.property-4d757046 {
+[id*="recommendations"] .notion-property.notion-property__text.property-4d757046 {
 	font-size: 20px;
 	font-weight: 500;
 }
 
 /* Summary font size */
 
-[id*="media-recs"] .notion-property.notion-property__text.property-4158617e {
+[id*="recommendations"] .notion-property.notion-property__text.property-4158617e {
 	font-size: 1rem;
 }
 
@@ -635,7 +635,7 @@ table.notion-collection-table .property-4158617e {
 
 /* Card layout */
 
-[id*="media-recs"] .notion-collection-card {
+[id*="recommendations"] .notion-collection-card {
 	position: relative !important;
 	box-shadow: none!important;
 	display: flex!important;
@@ -648,8 +648,8 @@ table.notion-collection-table .property-4158617e {
 	width: 46% !important;
 }
 
-[id*="media-recs"] .notion-collection-card__cover,
-[id*="media-recs"] .notion-collection-card__cover div {
+[id*="recommendations"] .notion-collection-card__cover,
+[id*="recommendations"] .notion-collection-card__cover div {
 	width: auto;
 	margin: 0 !important;
 	max-height: 250px !important;
@@ -658,7 +658,7 @@ table.notion-collection-table .property-4158617e {
 	border-radius: 0px !important;
 }
 
-[id*="media-recs"] .notion-collection-card__cover {
+[id*="recommendations"] .notion-collection-card__cover {
 	border-radius: 0px !important;
 	position: relative!important;
 	border: none!important;
@@ -666,29 +666,29 @@ table.notion-collection-table .property-4158617e {
 	width: 46% !important;
 }
 
-[id*="media-recs"] .notion-collection-card__content {
+[id*="recommendations"] .notion-collection-card__content {
 	padding-left: 15px!important;
 	position: relative!important;
 	flex: 1 !important;
 	white-space: nowrap !important;
 }
 
-[id*="media-recs"] .notion-collection-card__content span {
+[id*="recommendations"] .notion-collection-card__content span {
 	white-space: normal !important;
 }
 
-[id*="media-recs"] .notion-property__text {
+[id*="recommendations"] .notion-property__text {
 	margin: 0px !important;
 }
 
-[id*="media-recs"] .notion-property.notion-property__text.property-4d757046 {
+[id*="recommendations"] .notion-property.notion-property__text.property-4d757046 {
 	/*font-size: 1.5rem !important;*/
 	margin-bottom:5px !important;
 }
 
 @media (max-width:810px) {
 	/* 	Card width */
-	[id*="media-recs"] .notion-collection-card {
+	[id*="recommendations"] .notion-collection-card {
 		width: 90% !important;
 	}
 }
@@ -696,12 +696,12 @@ table.notion-collection-table .property-4158617e {
 @media (max-width:480px) {
 
 	/* 	Card width */
-	[id*="media-recs"] .notion-collection-card {
+	[id*="recommendations"] .notion-collection-card {
 		width: 100% !important;
 	}
 	
 	/* Title of media */
-	[id*="media-recs"] .notion-property.notion-property__text.property-4d757046 {
+	[id*="recommendations"] .notion-property.notion-property__text.property-4d757046 {
 	/*font-size: 20px !important;*/
   }
 }
