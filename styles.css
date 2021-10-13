@@ -799,6 +799,7 @@ table.notion-collection-table .property-4158617e {
 @media (max-width:414px) {
 	.footer.super-content.max-width {
 	    padding-bottom: 0 !important;
+    	    margin-bottom:0px !important;
 	}
 }
 
