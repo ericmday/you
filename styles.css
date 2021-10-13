@@ -33,7 +33,11 @@ html {
 
 .super-content.max-width {
 	max-width: 1000px !important;
-	margin-bottom: 3% !important;
+	margin-bottom: min(200px,20%) !important;
+}
+
+.footer.super-content.max-width {
+    margin-bottom:0px !important;
 }
 
 div img {
