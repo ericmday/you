@@ -343,6 +343,11 @@ span.notion-breadcrumb__divider {
   border-radius:10px;
  }
 
+.notion-callout:is(.bg-brown-light, .bg-orange-light, .bg-blue-light, .bg-green-light, .bg-purple-light, .bg-pink-light, .bg-red-light) {
+	background-color: var(--background-color-callouts) !important;
+	border:1px solid #37352f !important;
+}
+
 /*****************************/
 
 
