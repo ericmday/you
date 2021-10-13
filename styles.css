@@ -720,6 +720,11 @@ table.notion-collection-table .property-4158617e {
 	padding: 5px 0px;
 }
 
+/* Cover */
+[id*="downloads"] .notion-collection-gallery.medium img {
+    object-position: top !important;
+}
+
 /* Downloadable Title */
 [id*="downloads"] .notion-property.notion-property__text.property-4d757046 {
     font-size: 1rem;
