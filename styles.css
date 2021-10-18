@@ -87,6 +87,27 @@ div img {
   }
 }
 
+@supports (-webkit-touch-callout: none) and (orientation: portrait) {
+
+   .super-content {
+        padding-right: var(--padding-right) !important;
+        padding-left: var(--padding-left) !important;
+  }
+
+  .notion-header__content {
+        padding-right: var(--padding-right) !important;
+        padding-left: var(--padding-left) !important;  
+    }
+}
+
+
+@media (max-width:480px) {
+  .super-content.max-width {
+	  margin-bottom: 0px;
+	  padding-bottom: 30vh !important;
+  }
+}
+
 
 @media (max-width:480px) {
   .super-content.max-width {
