@@ -28,6 +28,15 @@ body {
 	--rounded: 8px!important;
 }
 
+@media (max-width: 900px) {
+    :root {
+        --column-spacing: 30px !important;
+        --navbar-height-scrolled: 80px !important;
+        --padding-right: calc(env(safe-area-inset-right) + 30px) !important;
+        --padding-left: calc(env(safe-area-inset-left) + 30px) !important;
+    }
+}
+
 html {
 	min-height: 100%;
 	position: relative;
@@ -37,6 +46,7 @@ html {
 	max-width: 1000px !important;
 	margin-bottom: min(200px,20%) !important;
 }
+
 .footer.super-content.max-width {
     margin-bottom:0px !important;
 }
@@ -44,6 +54,24 @@ html {
 div img {
   object-fit:cover !important;
 }
+
+@media (max-width: 900px) {
+
+    .super-content {
+    padding-right: var(--padding-right) !important;
+    padding-left: var(--padding-left) !important;
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+    }
+
+    .notion-header__content {
+    padding-right: var(--padding-right) !important;
+    padding-left: var(--padding-left) !important;
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+    }
+}
+
 
 @media (max-width:480px) {
   .super-content.max-width {
