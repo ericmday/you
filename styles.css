@@ -55,20 +55,35 @@ div img {
   object-fit:cover !important;
 }
 
-@media (max-width: 900px) {
-
-  .super-content {
-    padding-right: var(--padding-right) !important;
-    padding-left: var(--padding-left) !important;
-    max-width: 1600px !important;
-    margin: 0 auto !important;
+@media (max-width: 900px) { 
+    .super-content {
+        padding-right: var(--padding-right) !important;
+        padding-left: var(--padding-left) !important;
+        max-width: 1600px !important;
+        margin: 0 auto !important;
   }
 
   .notion-header__content {
-    padding-right: var(--padding-right) !important;
-    padding-left: var(--padding-left) !important;
-    max-width: 1600px !important;
-    margin: 0 auto !important;
+        padding-right: var(--padding-right) !important;
+        padding-left: var(--padding-left) !important;
+        max-width: 1600px !important;
+        margin: 0 auto !important;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .super-content {
+        padding-right: var(--padding-right) -20px !important;
+        padding-left: var(--padding-left) -20px !important;
+        max-width: 1600px !important;
+        margin: 0 auto !important;
+  }
+
+  .notion-header__content {
+        padding-right: var(--padding-right) -20px !important;
+        padding-left: var(--padding-left) -20px !important;
+        max-width: 1600px !important;
+        margin: 0 auto !important;
   }
 }
 
