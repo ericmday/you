@@ -46,7 +46,7 @@ html {
 	margin-bottom: min(200px,20%) !important;
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
     
     .super-content {
     padding-right: var(--padding-right) !important;
