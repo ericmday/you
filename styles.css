@@ -32,8 +32,8 @@ body {
     :root {
         --column-spacing: 30px !important;
         --navbar-height-scrolled: 80px !important;
-        --padding-right: calc(env(safe-area-inset-right)) !important;
-        --padding-left: calc(env(safe-area-inset-left)) !important;
+        --padding-right: calc(env(safe-area-inset-right)+30px) !important;
+        --padding-left: calc(env(safe-area-inset-left)+30px) !important;
     }
 }
 
@@ -48,7 +48,7 @@ html {
 	margin-bottom: min(200px,20%) !important;
 }
 
-@media (max-width: 900px) and (min-width:481px) {
+@media (max-width: 900px) {
     
     .super-content {
     padding-right: var(--padding-right) !important;
@@ -60,23 +60,6 @@ html {
     .notion-header__content {
     padding-right: var(--padding-right) !important;
     padding-left: var(--padding-left) !important;
-    max-width: 1600px !important;
-    margin: 0 auto !important;
-    }
-}
-
-@media (max-width: 480px) {
-    
-    .super-content {
-    padding-right: var(--padding-right)+30px) !important;
-    padding-left: var(--padding-left)+30px) !important;
-    max-width: 1600px !important;
-    margin: 0 auto !important;
-    }
-    
-    .notion-header__content {
-    padding-right: var(--padding-right)+30px) !important;
-    padding-left: var(--padding-left)+30px) !important;
     max-width: 1600px !important;
     margin: 0 auto !important;
     }
