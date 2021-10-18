@@ -57,19 +57,19 @@ div img {
 
 @media (max-width: 900px) {
 
-    .super-content {
+  .super-content {
     padding-right: var(--padding-right) !important;
     padding-left: var(--padding-left) !important;
     max-width: 1600px !important;
     margin: 0 auto !important;
-    }
+  }
 
-    .notion-header__content {
+  .notion-header__content {
     padding-right: var(--padding-right) !important;
     padding-left: var(--padding-left) !important;
     max-width: 1600px !important;
     margin: 0 auto !important;
-    }
+  }
 }
 
 
@@ -447,6 +447,8 @@ span.notion-breadcrumb__divider {
   display:inline-block !important;
 }
 
+@media only screen and (min-width:750px) {
+
 .notion-collection-list__item	.property-4d757046 span.notion-semantic-string span::after {
 		content: '';
 		display: block !important;
@@ -459,7 +461,7 @@ span.notion-breadcrumb__divider {
 		width: 100%;
 		transition: width .3s;
 	}
-
+}
 /* Restyle meta data of each article in the list */
 
 .notion-collection-list__item-property {
