@@ -11,6 +11,7 @@ html, body {
 
 body {
   position:relative !important;
+  width: 100vw !important;
 }
 
 /* Custom gradient in Options */
