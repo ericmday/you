@@ -71,48 +71,36 @@ div img {
   }
 }
 
-@supports (-webkit-touch-callout: none) {
+  @media (min-device-width:320px) and (max-device-width:768px) {
     .super-content {
-        padding-right: var(--padding-right) -20px !important;
-        padding-left: var(--padding-left) -20px !important;
+        padding-right: var(--padding-iphone-right) !important;
+        padding-left: var(--padding-iphone-left) !important;
         max-width: 1600px !important;
         margin: 0 auto !important;
   }
 
   .notion-header__content {
-        padding-right: var(--padding-right) -20px !important;
-        padding-left: var(--padding-left) -20px !important;
+        padding-right: var(--padding-iphone-right) !important;
+        padding-left: var(--padding-iphone-left) !important;
         max-width: 1600px !important;
         margin: 0 auto !important;
   }
 }
 
-@supports (-webkit-touch-callout: none) and (orientation: portrait) {
 
-   .super-content {
+@media (max-width:480px) {
+  .super-content.max-width {
+	  margin-bottom: 0px;
+	  padding-bottom: 30vh !important;
+  }
+    .super-content {
         padding-right: var(--padding-right) !important;
         padding-left: var(--padding-left) !important;
   }
 
   .notion-header__content {
         padding-right: var(--padding-right) !important;
-        padding-left: var(--padding-left) !important;  
-    }
-}
-
-
-@media (max-width:480px) {
-  .super-content.max-width {
-	  margin-bottom: 0px;
-	  padding-bottom: 30vh !important;
-  }
-}
-
-
-@media (max-width:480px) {
-  .super-content.max-width {
-	  margin-bottom: 0px;
-	  padding-bottom: 30vh !important;
+        padding-left: var(--padding-left) !important;
   }
 }
 
