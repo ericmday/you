@@ -73,7 +73,7 @@ div img {
   }
 }
 
-/*   @media (min-device-width:320px) and (max-device-width:768px) {
+  @media (min-device-width:320px) and (max-device-width:768px) {
     .super-content {
         padding-right: var(--padding-iphone-right) !important;
         padding-left: var(--padding-iphone-left) !important;
@@ -87,7 +87,7 @@ div img {
         max-width: 1600px !important;
         margin: 0 auto !important;
   }
-} */
+}
 
 
 @media (max-width:480px) {
