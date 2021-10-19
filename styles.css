@@ -32,8 +32,8 @@ body {
     :root {
         --column-spacing: 30px !important;
         --navbar-height-scrolled: 80px !important;
-        --padding-right: calc(env(safe-area-inset-right) + 30px) !important;
-        --padding-left: calc(env(safe-area-inset-left) + 30px) !important;
+        --padding-right: calc(env(safe-area-inset-right) + 20px) !important;
+        --padding-left: calc(env(safe-area-inset-left) + 20px) !important;
         --padding-iphone-left: 20px !important;
         --padding-iphone-right: 20px !important;
     }
@@ -73,7 +73,7 @@ div img {
   }
 }
 
-  @media (min-device-width:320px) and (max-device-width:768px) {
+/*   @media (min-device-width:320px) and (max-device-width:768px) {
     .super-content {
         padding-right: var(--padding-iphone-right) !important;
         padding-left: var(--padding-iphone-left) !important;
@@ -87,7 +87,7 @@ div img {
         max-width: 1600px !important;
         margin: 0 auto !important;
   }
-}
+} */
 
 
 @media (max-width:480px) {
