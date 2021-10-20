@@ -682,7 +682,7 @@ span.notion-breadcrumb__divider {
 	display: flex;
 	border: none !important;
 	padding: 0!important;
-	padding-top: 10px !important;
+	padding-top: 16px !important;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	grid-gap:40px !important;
