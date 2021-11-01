@@ -316,7 +316,7 @@ span.notion-breadcrumb__divider {
 }
 
 .notion-collection-card__cover,
-.notion-collection-card__cover div,
+.notion-collection-card__cover span,
 .notion-collection-card__cover img {
 	border-radius: 8px !important;
 	max-height: 200px !important;
@@ -327,7 +327,7 @@ span.notion-breadcrumb__divider {
 
 @media (max-width:768px) {
 	.notion-collection-card__cover,
-	.notion-collection-card__cover div,
+	.notion-collection-card__cover span,
 	.notion-collection-card__cover img {
 		height: 250px !important;
 	}
@@ -721,7 +721,7 @@ table.notion-collection-table .property-4158617e {
 }
 
 [id*="recommendations"] .notion-collection-card__cover,
-[id*="recommendations"] .notion-collection-card__cover div {
+[id*="recommendations"] .notion-collection-card__cover span {
 	width: auto;
 	margin: 0 !important;
 	max-height: 250px !important;
