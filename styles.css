@@ -963,7 +963,7 @@ button.button-subscribe:hover {
 }
 
 #page-content .notion-collection-table__wrapper {
-	display: none;
+/* 	display: none; */
 }
 
 #page-content picture {
