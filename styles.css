@@ -135,6 +135,7 @@ h2 {
 
 h1.notion-header__title {
 	font-size: 2em !important;
+	line-height:1em;
 }
 
 /* Adjust headers on pages */
