@@ -204,7 +204,7 @@ span.notion-breadcrumb__divider {
 .super-navbar__item {
 	font-size: 16px;
 	color: black !important;
-	font-weight: 400;
+	font-weight: 400 !important;
 }
 
 @media (min-width:999px) {
